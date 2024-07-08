@@ -1,0 +1,20 @@
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
+
+.rec{
+    width: 200px;
+    background-color: orange;
+    height: 200px;
+}
+
+.circ{
+    width: 200px;
+    background-color: orange;
+    height: 200px;
+    border-radius: 50%;
+
+}

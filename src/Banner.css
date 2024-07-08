@@ -1,0 +1,40 @@
+.banner{
+    background-color: blueviolet;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inner-container{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: blue;
+    border-radius: 20px;
+    top: 30px;
+
+
+}
+
+
+@media (max-width: 768px) {
+    .banner {
+      height: 250px; /* Adjust as needed */
+    }
+  
+    .inner-container {
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      height: 200px; /* Adjust as needed */
+    }
+  
+    .inner-container {
+      width: 100%;
+    }
+  }

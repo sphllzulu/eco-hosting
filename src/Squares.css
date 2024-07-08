@@ -17,3 +17,17 @@
     background-color:red;
 
 }
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .sq-cont {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sq1, .sq2{
+        width: 100%;
+    }
+  
+  }

@@ -1,6 +1,7 @@
 .banner{
     background-color: blueviolet;
     height: 300px;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -21,20 +22,21 @@
 
 @media (max-width: 768px) {
     .banner {
-      height: 250px; /* Adjust as needed */
+      height: 250px;
+
     }
-  
+/*   
     .inner-container {
-      width: 95%;
-    }
+      width: 80%;
+    } */
   }
   
-  @media (max-width: 480px) {
+  /* @media (max-width: 480px) {
     .banner {
-      height: 200px; /* Adjust as needed */
+      height: 200px;
     }
   
     .inner-container {
       width: 100%;
     }
-  }
+  } */

@@ -3,12 +3,13 @@
     justify-content: space-evenly;
     background-color: #fff;
     padding: 20px 0;
-    /* width: 100%; */
+    width: 100%; 
 }
 .recs{
+    width: 60%;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     
     
 }
@@ -17,17 +18,37 @@
     background-color: aquamarine;
     width: 100%;
     height: 40px;
-    margin: 20px;
+    margin: 20px 0;
     border-radius: 10px;
 
 }
+.squares{
+    width: 40%;
+    
 
+}
 
 
 
 .square{
     height: 300px;
-    width: 300px;
+    border-radius: 20px;
+    width: 100%;
     background-color: red;
 }
 
+@media (max-width: 768px) {
+    .cont {
+    width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .recs{
+        width: 90%;
+    }
+    .squares{
+        width: 90%;
+    }
+  
+  }

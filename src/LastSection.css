@@ -18,3 +18,19 @@
     border-radius: 50%;
 
 }
+
+
+@media (max-width: 768px) {
+    .last-container {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding:10px;
+    }
+
+    .rec, .circ{
+        width: 60%;
+        margin: 10px;
+    }
+  
+  }

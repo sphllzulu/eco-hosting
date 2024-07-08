@@ -63,26 +63,42 @@
       height: 30px;
     }
   
-    .rect, .rect2, .sqr, .circle {
-      width: 25px;
-      height: 25px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .contents {
-      flex-direction:row;
-      align-items: flex-end;
-      gap: 5px;
-    }
-  
-    .logo-circ {
-      width: 25px;
-      height: 25px;
-    }
-  
-    .rect, .rect2, .sqr, .circle {
-      width: 20px;
+    .rect, .rect2{
+      width: 40px;
       height: 20px;
     }
+     .sqr, .circle {
+      width: 30px;
+      height: 30px;
+    }
+    /* .rect, .rect2, .sqr, .circle {
+      width: 25px;
+      height: 25px;
+    } */
   }
+  
+  @media (max-width: 768px) {
+    .sq-cont {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sq1, .sq2{
+        width: 100%;
+    }
+  
+  }
+  /* @media (max-width: 460px) {
+    .sq-cont {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sq1, .sq2{
+        width: 100%;
+    }
+  
+  
+  } */
